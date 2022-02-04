@@ -52,6 +52,6 @@ function subscribeToMailchimp(mailchimpConfig, subscriberData, emailHash) {
       }
     })
     .catch((error) => console.error(`Error occured during Mailchimp subscription: ${error}`));
-}
+} 
 
 export default mailchimpSubscribe;
